@@ -15,8 +15,6 @@
 
 </head>
 <body class="page">
-<div id="root"></div>
-
 <div class="page__wrapper">
     <div class="page__wrapper-content">
         <header class="header">
@@ -203,30 +201,20 @@
                         </div>
                     </div>
 
-                    <script type="text/babel">
-                        class App extends React.Component {
-                            render() {
-                                return (
-                                    <div class="panel scenarios__panel">
-                                        <div class="panel__icon panel__icon_clock"></div>
-                                        <div class="panel__text">
-                                            <div class="panel__title">Я ухожу</div>
-                                        </div>
-                                    </div>
-                                );
-                            }
-                        }
-
-                        ReactDOM.render(<App />, document.getElementsByClassName('scenarios__page')[1]);
-                    </script>
+                    <div class="panel scenarios__panel">
+                        <div class="panel__icon panel__icon_clock"></div>
+                        <div class="panel__text">
+                            <div class="panel__title">Я ухожу</div>
+                        </div>
+                    </div>
 
                 </section>
             </div>
 
             <div class="content__item content__item_devices">
-        <span class="content__item-header content__item-header_devices">
-          Избранные устройства
-        </span>
+                <span class="content__item-header content__item-header_devices">
+                  Избранные устройства
+                </span>
 
                 <div class="filter__select">
                     <button class="filter__select-button" type="button">

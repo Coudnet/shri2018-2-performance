@@ -1,7 +1,5 @@
-
 .adjust-bar {
   -webkit-appearance: none;
-  appearance: none;
   outline: none;
   border-radius: 30px;
   width: 100%;
@@ -14,7 +12,6 @@
 }
 .adjust-bar::-webkit-slider-thumb {
   -webkit-appearance: none;
-  appearance: none;
   cursor: pointer;
   width: 60px;
   height: 60px;
@@ -303,9 +300,7 @@
   width: 108px;
   height: 27px;
   position: relative;
-  background-image: url("./assets/logo.png");
-  background-repeat: no-repeat;
-  background-position: left top;
+  background: url("./assets/logo.png") no-repeat left top;
   background-size: cover;
 }
 .logo__ya {
@@ -334,7 +329,7 @@
   padding: 0 20px 0 25px;
   display: flex;
   justify-content: space-between;
-  background: url("assets/sh.png") center center/cover no-repeat;
+  background: url("assets/sh_sized.png") center center/cover no-repeat;
 }
 .main__greeting {
   margin-top: 6px;
@@ -423,7 +418,8 @@
   padding-right: 32px;
 }
 .modal__value_temp {
-  background: url("assets/panel__icon_temp_on.svg") calc(100% + 10px) 0%/contain no-repeat;
+  background: url("assets/panel__icon_temp_on.svg") calc(100% + 10px) no-repeat;
+  background-size: contain;
 }
 .modal__value_light {
   height: 45px;
